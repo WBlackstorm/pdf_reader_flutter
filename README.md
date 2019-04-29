@@ -1,3 +1,5 @@
+# pdf_reader_flutter
+An pdf reader with a shelf made in flutter/dart
 # pdf_reader
 
 A new Flutter project.

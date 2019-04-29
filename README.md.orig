@@ -1,0 +1,21 @@
+<<<<<<< HEAD
+# pdf_reader
+
+A new Flutter project.
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
+
+For help getting started with Flutter, view our 
+[online documentation](https://flutter.io/docs), which offers tutorials, 
+samples, guidance on mobile development, and a full API reference.
+=======
+# pdf_reader_flutter
+An pdf reader with a shelf made in flutter/dart
+>>>>>>> ab27d189fc72309b6e8d5c0e05089e62dd665591
