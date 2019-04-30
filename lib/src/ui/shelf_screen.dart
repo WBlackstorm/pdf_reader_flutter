@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'reader_screen.dart';
 
 class ShelfScreen extends StatelessWidget {
 
@@ -7,21 +8,25 @@ class ShelfScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text('Shelf'),
       ),
-      body: ListView(
-        children: <Widget>[
-          ListTile(
-            leading: Icon(Icons.map),
-            title: Text('Map'),
-          ),
-          ListTile(
-            leading: Icon(Icons.photo_album),
-            title: Text('Album'),
-          ),
-          ListTile(
-            leading: Icon(Icons.phone),
-            title: Text('Phone'),
-          ),
-        ],
+      body: GridView.count(
+          crossAxisCount: 3,
+          children: List.generate(10, (index) {
+            return Center(
+              child: GestureDetector(
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => ReaderScreen()),
+                  );
+                },
+                child: Image.asset(
+                  'lib/src/images/revista.jpg',
+                  width: 100.0,
+                  height: 120.0,
+                ),
+              ),
+            );
+          }),
       ),
     );
   }
