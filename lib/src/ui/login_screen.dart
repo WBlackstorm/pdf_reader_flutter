@@ -19,6 +19,7 @@ class LoginScreenState extends State<LoginScreen> {
       child: Form(
         key: formKey,
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             loginField(),
             passwordField(),

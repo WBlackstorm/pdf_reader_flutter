@@ -45,6 +45,9 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - lib/src/images/revista.jpg
+    - lib/src/images/capa1.png
+    - lib/src/images/capa2.png
+    - lib/src/images/capa3.png
     - lib/src/content/apostila.pdf
 
   # An image asset can refer to one or more resolution-specific "variants", see
